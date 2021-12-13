@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfoli</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Mukta:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    color: purple;
+}
+body>header {
+    background-image: url('../portafoli/img/nekos.jpg');
+}
+header .container{
+        background-color:rgba(255, 255, 255, 0.6); 
+        padding-left: 8px;
+        padding-right: 4px;
+    }
+main {
+    background-image: url('../portafoli/img/pc.jpg');
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+   
+}
+ul li{
+    list-style-type: none;
+    margin: 0.9em;
+    
+   
+}
+ul li a{
+    font-size: 1em;
+    font-family: 'IM Fell English SC', serif;
+   
+}
+body>header a:hover{
+    background: none;
+    color:purple;
+    
+}
+a{
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1em;
+   
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+body>header{
+    font-size: 0.95em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1.2em;
+    width: 20%;
+}
+body>header a{
+    background-color: purple;
+    padding: 0.2em;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 700;
+}
+h1{
+    font-family: 'IM Fell English SC', serif;
+    font-size: 3.0em;
+    margin: 0 0 2em 0;
+}
+body>header p{
+    font-size: 1.2em;
+    margin: 1.2em 0 0.5em 0;
+    line-height: 1.4em;
+}
+nav{
+    width: 100%;
+    padding: 1.2em 0 0 0;
+}
+ul{
+    margin: 1em 0 0 0.5em;
+}
+main{
+    padding: 1em;
+    width: 80%;
+    margin-left: 20%;
+}
+main .container{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    justify-content: center;
+    /* background-color: aqua; */
+}
+main .container div{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background: cornsilk; */
+}
+.container>div{
+    display: flex;  
+    flex-direction: column;
+}
+.container header{
+    width: 100%;
+    height: 100%;
+}
+main h2{
+    text-align: center;
+}
+main a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.e1, .e2, .e3, .e4, .e5, .e6, .e7{
+    background-color: rgba(128, 0, 128, 0.8);
+    border-radius: 20px;
+}
+.e1{
+    grid-column:1/2;
+    grid-row:1/2;
+}
+.e2{
+    grid-column:4/5;
+    grid-row:1/2;
+}
+.e3{
+    grid-column:1/3;
+    grid-row:2/3;
+}
+.e4{
+    grid-column:3/5;
+    grid-row:2/3;
+}
+.e5{
+    grid-column:1/3;
+    grid-row:3/5;
+}
+.e6{
+    grid-column:3/5;
+    grid-row:3/5;
+}
+.e7{
+    grid-column:2/4;
+    grid-row:5/6;
+}
+/*.e8{
+    grid-column:4/5;
+    grid-row:2/4;
+}
+.e9{
+    grid-column:2/3;
+    grid-row:4/5;
+}
+.e10{
+    grid-column:4/5;
+    grid-row:4/5;
+}*/
+.e1:hover, .e2:hover, .e3:hover, .e4:hover, .e5:hover, .e6:hover, .e8:hover{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: none;
+    box-shadow: 0px 0px 8px blue;
+}
+.e1:hover{
+    background-image: url('../portafoli/img/p1_.PNG');
+}
+.e2:hover{
+    background-image: url('../portafoli/img/p2_.PNG');  
+}
+.e3:hover{
+    background-image: url('../portafoli/img/p3_.PNG');
+}
+.e4:hover{
+    background-image: url('../portafoli/img/p4_.PNG');
+}
+.e5:hover{
+    background-image: url('../portafoli/img/p5_.PNG');
+}
+.e6:hover{
+    background-image: url('../portafoli/img/p6_.PNG');
+}
+.e7:hover{
+    background-image: url('../portafoli/img/p7_.PNG');
+}
+
+@media (max-width: 1300px){
+    .email{
+        font-size: 85%;
+    }
+    .gato{
+        font-size: 40px;
+    }
+}
+@media (max-width: 1150px){
+    .email{
+        font-size: 70%;
+    }
+    .gato{
+        font-size: 35px;
+    }
+}
+@media (max-width: 1024px){
+    .e1, .e2, .e3, .e4, .e5, .e6, .e7{
+    background-color: rgba(0, 0, 0, 0.8);}
+    .email{
+        font-size: 90%;
+    }
+    .gato{
+        font-size: 60px;
+    }
+    body{
+        color: black;
+        flex-direction: column;
+    }
+    main {
+    background-image: url('../portafoli/img/tablet.jpg');
+}
+    body>header a{
+    background-color: black;}
+    body>header{
+        position: relative;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        margin-left: 0;
+    }
+    main .container{
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(3, 200px);
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+        font-size: 2.2em;
+        margin: 0 0 3em 0;
+    }
+    nav ul{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .e1{
+        grid-column:1/3;
+        grid-row:2/3;
+    }
+    .e2{
+        grid-column:4/6;
+        grid-row:1/2;
+    }
+    .e3{
+        grid-column:7/9;
+        grid-row:2/3;
+    }
+    .e4{
+        grid-column:3/5;
+        grid-row:2/3;
+    }
+    .e5{
+        grid-column:5/7;
+        grid-row:2/3;
+    }
+    .e6{
+        grid-column:3/5;
+        grid-row:3/4;
+    }
+    .e7{
+        grid-column:5/7;
+        grid-row:3/4;
+    }
+    /*.e8{
+        grid-column:2/3;
+        grid-row:4/6;
+    }
+    .e9{
+        grid-column:3/4;
+        grid-row:5/7;
+    }
+    .e10{
+        grid-column:2/3;
+        grid-row:6/7;
+    }*/
+}
+
+@media (max-width: 600px){
+    .e1, .e2, .e3, .e4, .e5, .e6, .e7{
+    background-color: rgba(255, 166, 0, 0.8);}
+    body{
+        color: orangered;
+        flex-direction: column;
+    }
+    main {
+    background-image: url('../portafoli/img/movil.png');
+}
+    body>header a{
+    background-color: orangered;}
+    body>header{
+        position: relative;
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        margin-left: 0;
+    }
+    main .container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 200px);
+    }
+    .e1{
+        grid-column:1/2;
+        grid-row:1/3;
+    }
+    .e2{
+        grid-column:2/3;
+        grid-row:1/2;
+    }
+    .e3{
+        grid-column:1/2;
+        grid-row:3/4;
+    }
+    .e4{
+        grid-column:2/3;
+        grid-row:2/4;
+    }
+    .e5{
+        grid-column:1/2;
+        grid-row:4/6;
+    }
+    .e6{
+        grid-column:2/3;
+        grid-row:4/5;
+    }
+    .e7{
+        grid-column:2/3;
+        grid-row:5/6;
+    }
+    /*.e8{
+        grid-column:2/3;
+        grid-row:5/7;
+    }
+    .e9{
+        grid-column:1/2;
+        grid-row:7/8;
+    }
+    .e10{
+        grid-column:2/3;
+        grid-row:7/8;
+    }*/
+}</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1 class="gato">Portfoli YoruNeko</h1>
+        <p>Espai web que enllaça amb els projectes d'aula de les matèries de "Sistemes de representació avançada" i "Recursos Interactius aplicats a la gràfica" a l'<a href="http://www.easdalcoi.es">easdalcoi</a>.</p>
+        <p>Professora Magda Arques - <a class="email" href="mailto:arquesm@easdalcoi.es">arquesm@easdalcoi.es</a></p>
+        <p>Alumne Pau Coello - <a class="email" href="mailto:coellomp@easdalcoi.es">coellomp@easdalcoi.es</a></p>
+        <nav>
+            <ul>
+                <li> <a href="https://www.instagram.com/explore/tags/anime/?hl=es">insta</a></li>
+                <li> <a href="https://www.facebook.com/user_cookie_prompt/">facebook</a></li>
+                <li> <a href="https://github.com/YoruNeko482">github</a></li>
+            </ul>    
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="e1">
+                <header>
+                    <a href="https://yoruneko482.github.io/p1_llocweb_2gp/"><h2>1.Lloc web</h2></a>
+                 </header>
+            </div>
+           <div class="e2">
+                <header>
+                    <a href="https://yoruneko482.github.io/p2_img_2gp/"><h2>2.Enllaços</h2></a>
+                </header>
+            </div>
+            <div class="e3">
+                <header>
+                    <a href="https://yoruneko482.github.io/p3_img_video_audio/"><h2>3.Recursos Mèdia</h2></a>
+                </header>
+            </div>
+            <div class="e4">
+                <header>
+                    <a href="https://yoruneko482.github.io/p4_gallery/"><h2>4.Gallery</h2></a>      
+                </header>
+            </div>
+            <div class="e5">
+                <header>
+                    <a href="https://yoruneko482.github.io/p5_grid/"><h2>5.Grid :-)</h2></a>
+                </header>
+            </div>
+            <div class="e6">
+                <header>
+                    <a href="https://yoruneko482.github.io/p6_mondrian/"> <h2>6.Mondrian</h2></a>
+                </header>
+            </div>
+            <div class="e7">
+                <header>
+                    <a href="#"><h2>7.Portfoli</h2></a>  
+                </header>
+            </div>
+            <!--<div class="e8">
+                <header>
+                    <a href=""><h2>8.Porfoli</h2></a>    
+                </header>  
+            </div>
+            <div class="e9">
+                <header>
+                    <a href=""><h2>-</h2></a>
+                </header>
+            </div>
+            <div class="e10">
+                <header>
+                    <a href=""><h2>-</h2></a> -->
+                </header>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
